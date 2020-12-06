@@ -73,6 +73,7 @@ public class Snake : MonoBehaviour
             Restart.SetActive(true);
             speed = 0;
             Time.timeScale = 0f;
+            Score = 0;
         }
     }
 
